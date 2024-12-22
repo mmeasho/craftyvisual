@@ -2,4 +2,7 @@
 ^\.Rproj\.user$
 ^doc$
 ^Meta$
+<<<<<<< HEAD
 ^README\.Rmd$
+=======
+>>>>>>> 9c165be1f2898d382c22534d41cf7db34385d9b3

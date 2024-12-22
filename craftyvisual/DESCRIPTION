@@ -1,0 +1,21 @@
+Package: craftyvisual
+Type: Package
+Title: Custom Graphing Functions for Aesthetic Visualizations
+Version: 0.1.0
+Author: Merhawit Measho
+Maintainer: Merhawit Measho <mmeasho@iu.edu> 
+Description: Provides custom graphing functions with aesthetic defaults for themes, colors, and layouts. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+URL : https://github.com/mmeasho/craftyvisual.git
+Imports:
+    ggplot2
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3

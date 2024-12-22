@@ -1,0 +1,16 @@
+---
+title: "Using the craftyvisual Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the craftyvisual Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+`craftyvisual` simplifies creating custom visualizations in R.
+
+# Example: Scatter Plot
+```r
+library(craftyvisual)
+custom_scatter_plot(mtcars, "wt", "mpg", "Scatterplot of Weight vs MPG")
